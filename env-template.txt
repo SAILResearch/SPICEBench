@@ -1,0 +1,28 @@
+# Environment Variables Template
+# Copy this file to .env and fill in your actual values
+
+# API Keys - Set these to your actual API keys
+OPENAI_API_KEY=your_openai_api_key_here
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+
+# Model Configuration
+SPICE_PROVIDER=deepseek_official  # or "openrouter"
+SPICE_MODEL_ISSUE=deepseek/deepseek-reasoner
+SPICE_MODEL_STRONG=deepseek/deepseek-reasoner
+SPICE_MODEL_WEAK=deepseek/deepseek-reasoner
+SPICE_MODEL_DIFFICULTY_STRONG=stub
+SPICE_MODEL_DIFFICULTY_WEAK=stub
+
+# Local Model Server Configuration (if using local models)
+LOCAL_MODEL_HOST=localhost
+LOCAL_MODEL_SERVER=localhost:11434
+
+# Data Paths
+SWEBENCH_DATA_PATH=data/swebench_verified.parquet
+SWEBENCH_OUTPUT_PATH=data/swev_10_per_repo.parquet
+
+# Optional: API Base URLs
+OPENAI_API_BASE=https://openrouter.ai/api/v1
+DEEPSEEK_API_ENDPOINT=https://api.deepseek.com/chat/completions
+DEEPSEEK_API_BASE=https://api.deepseek.com

@@ -1,0 +1,3 @@
+# Warning
+            
+The issue and associated patches under discussion belong to a popular GitHub repository. The issue was filed some time ago. The repo has been checked out at the commit that existed at the moment the issue was filed. If you are already familiar with this repo, be cautious! You are working with an old version of the repo! Filenames, directory names, file contents, etc may be different from what you're used to.

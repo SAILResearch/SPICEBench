@@ -1,0 +1,25 @@
+{
+    "gpt-4o-mini": {
+      "provider": "openai",
+      "max_tokens": 600,
+      "temperature": 0.3,
+      "timeout": 30
+    },
+    "chatgpt-4o-latest": {
+      "provider": "openai",
+      "max_tokens": 500,
+      "temperature": 0.7,
+      "timeout": 40
+    },
+    "claude-3-5-sonnet-latest": {
+      "provider": "claude",
+      "max_tokens": 512,
+      "timeout": 30
+    },
+    "deepseek-r1:32b": {
+      "provider": "local",
+      "max_tokens": 1000,
+      "timeout": 60
+    }
+}
+  
