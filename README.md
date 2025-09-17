@@ -1,8 +1,5 @@
 # **LABELING SPICE**
 
-![SPICE](photos/spice_melange_dune_2021.png)
-
-
 ## **Introduction**
 
 ### **Dataset Requirements**
