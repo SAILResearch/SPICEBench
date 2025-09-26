@@ -1,4 +1,4 @@
-# **SPICE TOOL and SPICE-bench🌶️** (*A SWE-Bench-verified–style labeling tool and benchmark for evaluating the software engineering capabilities of foundation models*) 
+# **SPICE TOOL and SPICEBench🌶️** (*A SWE-Bench-verified–style labeling tool and benchmark for evaluating the software engineering capabilities of foundation models*) 
 This is the official repository accompanying our paper: [**SPICE : An Automated SWE-Bench Labeling Pipeline for Issue Clarity, Test Coverage, and Effort Estimation**](https://arxiv.org/pdf/2507.09108)
 
 # **How to cite our paper**
@@ -11,7 +11,7 @@ This is the official repository accompanying our paper: [**SPICE : An Automated 
 }
 ```
 
-# **SPICE-bench🌶️**
+# **SPICEBench🌶️**
 
 A curated dataset of 6,802 automatically labeled (with our SPICE tool) instances drawn from 291 real-world open-source projects in [SWE-Gym](https://arxiv.org/abs/2412.21139). This is the largest known collection of *solvable* SWE-bench-like tasks, and is over 13 times larger than SWEBench-Verified's human-labeled subset. SPICE-bench provides a rich resource for fine-tuning, benchmarking, and training SE-focused foundation models.
 
@@ -19,7 +19,7 @@ The dataset is available under `data` directory.
 
 The data labels for `Issue quality`, `Test quality` and `Difficulty level` are available with the keys `task_score`, `evaluation_score` and `difficulty_score`  per instance. The data is provided as a `.jsonl` file for ease of use.
 
-# **SPICE Tool🌶️ - A Tool for creating your own SPICE-bench**
+# **SPICE Tool🌶️ - A Tool for creating your own SPICEBench**
 
 ## **Introduction**
 
