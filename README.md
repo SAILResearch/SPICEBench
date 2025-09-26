@@ -11,7 +11,7 @@ This is the official repository accompanying our paper: [**SPICE : An Automated 
 }
 ```
 
-# **SPICEBench🌶️**
+# **SPICE-bench🌶️**
 
 A curated dataset of 6,802 automatically labeled (with our SPICE tool) instances drawn from 291 real-world open-source projects in [SWE-Gym](https://arxiv.org/abs/2412.21139). This is the largest known collection of *solvable* SWE-bench-like tasks, and is over 13 times larger than SWEBench-Verified's human-labeled subset. SPICE-bench provides a rich resource for fine-tuning, benchmarking, and training SE-focused foundation models.
 
